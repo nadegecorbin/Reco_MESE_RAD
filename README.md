@@ -2,13 +2,14 @@
 
 To be used with data acquired with the 3D radial Multi-Echo Spin echo sequence.
 
-One dataset acquired with deliberate motion is available at : 
+One example dataset with and without deliberate motion is provided in ISMRMRD format and available at: 
+10.5281/zenodo.10908742. Reconstructed maps are also provided. 
 
-The example code is written to reconstruct the motion corrupted dataset with and without motion correction 
+The example code can be used to reconstruct the motion corrupted dataset with and without motion correction.
 
 
 The related paper "Whole-brain T2 mapping with radial sampling and retrospective motion correction at 3T"
-is curretnly in the revision process in the Magnetic Resonance in Medicine journal . 
+is currently under submission. 
 
 *Nadege Corbin, 
 Centre de Resonance Magnetique des Systemes Biologiques 
@@ -34,16 +35,18 @@ This reconstruction code requires multiple softwares and toolbox
 # Step 1: copy files in the right place
 
 
--create the folder `[path to gadgetron]/+gadgetron/+custom/+MESE_RAD`
-copy `handle_connection_MESE_RAD_shared.m` there
+- create the folder `[path to gadgetron]/+gadgetron/+custom/+MESE_RAD`
+- copy `handle_connection_MESE_RAD_shared.m` there
 
--if it does not exist, create the folder ```
-[path to gadgetron]/+gadgetron/+custom/+utils
-copy apply_traj_kdata_clean.m```there
-copy `unif_traj.m` there
-copy `write_basis_shared.m` there 
 
--copy `MESE_RAD_shared_6ch.xml  MESE_RAD_shared_12ch.xml`  into `/usr/local/share/gadgetron/config`
+- if it does not exist, create the folder ```
+[path to gadgetron]/+gadgetron/+custom/+utils ```
+- copy `apply_traj_kdata_clean.m` there
+- copy `unif_traj.m` there
+- copy `write_basis_shared.m` there 
+
+
+- copy `MESE_RAD_shared_6ch.xml  MESE_RAD_shared_12ch.xml`  into `/usr/local/share/gadgetron/config`
 
 
 
