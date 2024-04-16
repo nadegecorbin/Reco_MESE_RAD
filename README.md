@@ -1,7 +1,14 @@
-# Example code to reconstruct and retrospectively correct for motion 
-To be used with data acquired with the 3D radial Multi-Echo Spin echo sequence
+# Example code to reconstruct and retrospectively correct for motion. 
+
+To be used with data acquired with the 3D radial Multi-Echo Spin echo sequence.
+
 One dataset acquired with deliberate motion is available at : 
+
 The example code is written to reconstruct the motion corrupted dataset with and without motion correction 
+
+
+The related paper "Whole-brain T2 mapping with radial sampling and retrospective motion correction at 3T"
+is curretnly in the revision process in the Magnetic Resonance in Medicine journal . 
 
 *Nadege Corbin, 
 Centre de Resonance Magnetique des Systemes Biologiques 
